@@ -6,6 +6,7 @@ import Projects from './components/Projects/Projects';
 const App=()=> {
   return (
     <div>
+
       <Navigation/> 
       <Heroarea />
       <Projects />
