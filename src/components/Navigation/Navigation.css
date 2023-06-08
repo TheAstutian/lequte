@@ -1,0 +1,25 @@
+.navigation{
+    display : flex;
+    justify-content: flex-end;
+}
+
+.email:hover #span{
+    display:block;
+    background-color: white;
+    color: black;
+    position: absolute;
+    font-size:0.65em;
+    border-radius: 5px;
+    padding: 5px;
+    top:60px;
+    right:100px;
+    font-weight: 300;
+}
+
+#span{
+    display:none;
+    }
+.logo{
+    font-size: 80px;
+ 
+}
