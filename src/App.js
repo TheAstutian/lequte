@@ -8,8 +8,10 @@ const App=()=> {
     <div>
 
       <Navigation/> 
-      <Heroarea />
-      <Projects />
+      <div>
+        <Heroarea />
+        <Projects />
+      </div>
     </div>    
   );
 }

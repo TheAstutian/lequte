@@ -5,7 +5,10 @@ import './Navigation.css'
 
 const Navigation = ()=>{
     const wrapperStyle = {
-    //position: "absolute",
+        
+        marginTop: "-10px",
+
+       //top: 30,
        // top: 0,
        // left: 0,
        // right: 0,
@@ -13,9 +16,9 @@ const Navigation = ()=>{
        // height: 100,
         //margin: "auto",
         //textAlign: "center",
-        marginLeft: "50px", 
+       marginLeft: "100px", 
         width: "100px",
-        height: "100px", 
+       height: "100px", 
       //  fontSize: "3.5em",//
      
       
@@ -24,22 +27,24 @@ const Navigation = ()=>{
         <div className="w-100 pt3 ph3"
             style={{display:"flex", justifyContent: "space-between"}}
             >
-            <div className=" "
-                style={wrapperStyle}
-                >
-                 <Ztext 
-                        depth="10px"
-                        direction="both"
-                        event="pointer"
-                        eventRotation="30deg"
-                        eventDirection="default"
-                        fade={false}
-                        layers={50}
-                        perspective="500px"
-                    >
-                       <h1 className="logo">Q</h1>
-                  </Ztext>
-            </div>
+                <div>
+                    <div   > 
+                    <Ztext 
+                            style={wrapperStyle}
+                            depth="10px"
+                            direction="both"
+                            event="pointer"
+                            eventRotation="45deg"
+                            eventDirection="default"
+                            fade={false}
+                            layers={50}
+                            perspective="500px"
+                        >
+                        <h1 className="logo">Q</h1>
+                    </Ztext>
+                    </div>
+                </div>
+
             <div className=' pa2 navigation' >
                 <a className="no-underline near-white bg-animate email inline-flex items-center ma2 tc br2 pa2" href="mailto:speakingatoms@gmail.com" target="blank">
                 <svg className = "dib h2 w2" fill = "currentColor" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/></svg>

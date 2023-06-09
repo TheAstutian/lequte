@@ -19,7 +19,12 @@
 #span{
     display:none;
     }
+
 .logo{
     font-size: 80px;
- 
+
+}
+
+.logo:hover{
+    cursor: pointer;
 }
