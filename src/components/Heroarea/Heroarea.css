@@ -1,0 +1,16 @@
+.welcome h1{
+    font-size: 5rem;
+    font-weight: lighter;
+}
+
+.text{
+    margin-top: -30px;
+}
+.text span{
+    color: #d1d1d1;
+    font-size: 0.9rem;
+    display: block;
+    padding-bottom: 5px;
+    line-height: 1.5;
+
+}

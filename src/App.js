@@ -8,9 +8,14 @@ const App=()=> {
     <div>
 
       <Navigation/> 
-      <div>
-        <Heroarea />
-        <Projects />
+      <div className="main-content">
+        <div className='hero'>
+          <Heroarea />
+        </div>
+        <div className='projects'>
+          <Projects />
+        </div>
+        
       </div>
     </div>    
   );
