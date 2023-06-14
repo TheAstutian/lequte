@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 import Ztext from "react-ztext";
 import './Navigation.css'
 
@@ -23,25 +24,31 @@ const Navigation = ()=>{
      
       
       };
+
     return (
         <div className="w-100 pt3 ph3"
             style={{display:"flex", justifyContent: "space-between"}}
             >
                 <div>
-                    <div   > 
-                    <Ztext 
-                            style={wrapperStyle}
-                            depth="10px"
-                            direction="both"
-                            event="pointer"
-                            eventRotation="45deg"
-                            eventDirection="default"
-                            fade={false}
-                            layers={50}
-                            perspective="500px"
-                        >
-                        <h1 className="logo">Q</h1>
-                    </Ztext>
+                    <div   >   
+                        <Link to="/">
+                            <Ztext 
+                                style={wrapperStyle}
+                                depth="10px"
+                                direction="both"
+                                event="pointer"
+                                eventRotation="45deg"
+                                eventDirection="default"
+                                fade={false}
+                                layers={50}
+                                perspective="500px"
+                            >
+                        
+                                <h1 className="logo">Q</h1>
+                     
+                            </Ztext>   
+                        </Link>
+                        
                     </div>
                 </div>
 

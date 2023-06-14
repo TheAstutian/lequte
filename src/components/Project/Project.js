@@ -4,12 +4,13 @@ const Project =()=>{
 
     return (
         <div>
-            name
-            description
-            image
-            tech used 
-            project link 
-            github link 
+
+            <p> name {item.project_name}</p>
+            <p>description</p>
+            <p>image</p>
+            <p>tech used</p> 
+            <p>project link</p> 
+            <p>github link </p>
         </div>
     )
 }

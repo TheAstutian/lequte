@@ -1,24 +1,21 @@
 import './App.css';
-import Heroarea from './components/Heroarea/Heroarea';
+import Home from './components/Home/Home';
 import Navigation from './components/Navigation/Navigation';
-import Projects from './components/Projects/Projects';
+import Project from './components/Project/Project';
+
+import {Routes, Route} from 'react-router-dom'
 
 const App=()=> {
   return (
     <div>
-
-      <Navigation/> 
-      <div className="main-content">
-        <div className='hero'>
-          <Heroarea />
-        </div>
-        <div className='projects'>
-          <Projects />
-        </div>
-        
-      </div>
+      <Navigation/>
+      <Routes>
+        <Route path='/' element={Home} exact />
+        <Route path='/projects/:id' element={Project} exact/>
+      </Routes>
     </div>    
   );
 }
 
 export default App;
+

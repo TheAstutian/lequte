@@ -1,0 +1,25 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  
+  
+  .main-content{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .hero{
+    width: 80%;
+    border: 2px solid brown;
+  }
+  
+  .projects{
+    width:40%;
+    border: 2px solid black;
+  }
+  
