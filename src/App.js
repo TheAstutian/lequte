@@ -10,8 +10,8 @@ const App=()=> {
     <div>
       <Navigation/>
       <Routes>
-        <Route path='/' element={Home} exact />
-        <Route path='/projects/:id' element={Project} exact/>
+        <Route path='/' element={<Home />} exact />
+        <Route path='/projects/:id' element={<Project />} exact/>
       </Routes>
     </div>    
   );
