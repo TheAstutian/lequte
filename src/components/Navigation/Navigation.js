@@ -8,32 +8,33 @@ const Navigation = ()=>{
     const wrapperStyle = {
         
         marginTop: "-10px",
-
-       //top: 30,
-       // top: 0,
-       // left: 0,
-       // right: 0,
-        //bottom: 0,
-       // height: 100,
-        //margin: "auto",
+        position: "absolute",
+       top: 30,
+        top: 0,
+        left: 0,
+        right: 0,
+       bottom: 0,
+       height: 100,
+       margin: "auto",
         //textAlign: "center",
        marginLeft: "100px", 
         width: "100px",
        height: "100px", 
       //  fontSize: "3.5em",//
+      border: "2px solid blue"
      
       
       };
 
     return (
-        <div className="w-100 pt3 ph3"
+        <div className="w-100 ph3"
             style={{display:"flex", justifyContent: "space-between"}}
             >
                 <div>
-                    <div   >   
+                    <div    style={wrapperStyle}  >   
                         <Link to="/">
                             <Ztext 
-                                style={wrapperStyle}
+                             
                                 depth="10px"
                                 direction="both"
                                 event="pointer"
@@ -44,7 +45,7 @@ const Navigation = ()=>{
                                 perspective="500px"
                             >
                         
-                                <h1 className="logo">Q</h1>
+                                <h1 className="logo"> E</h1>
                      
                             </Ztext>   
                         </Link>
