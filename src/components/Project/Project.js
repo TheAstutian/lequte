@@ -9,21 +9,22 @@ const Project =(props)=>{
 
 
     return (
-        <div className='w-100 pa2 ma3 main' >
-            <div>
+        <div className='pa2 mv3 main' >
+            <div className='title'>
                 <h1>{from.project_name}</h1>
             </div>
-            <div className='w-75'>
+            <div className='w-50 image'>
                 <img src={from.image_url} alt='1'/>
             </div>
-            <div>
-                <p>Description: {from.description}</p>
+            <div className='description'>
+                <p> {from.description}</p>
             </div>
-            
-            <div>
-                <p>Tech used: {from.tech_used}</p> 
-                <p>project link</p> 
-                <p>github link </p>
+            <div className="tech">
+                <p>{from.tech_used}</p>
+            </div>
+            <div className='links'> 
+                <p>Link: <a href={`${from.project_link}`} target="blank">{from.project_link}</a></p> 
+                <p>Codes: <a href={`${from.source_code}`} target="blank">{from.source_code}</a></p>
             </div>
 
         </div>
