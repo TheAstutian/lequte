@@ -12,10 +12,5 @@ body {
 
 p,h1 {
   color: #fffffe;
-
-  /* 5c697d, 414e63,  */
-  }
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
 }
+

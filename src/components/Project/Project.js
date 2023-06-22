@@ -23,8 +23,8 @@ const Project =(props)=>{
                 <p>{from.tech_used}</p>
             </div>
             <div className='links'> 
-                <p>Link: <a href={`${from.project_link}`} target="blank">{from.project_link}</a></p> 
-                <p>Codes: <a href={`${from.source_code}`} target="blank">{from.source_code}</a></p>
+                <p> <a href={`${from.project_link}`} target="blank">View Site</a></p> 
+                <p><a href={`${from.source_code}`} target="blank">GitHub</a></p>
             </div>
 
         </div>

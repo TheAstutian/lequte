@@ -32,3 +32,35 @@
     font-size: 15px;
     font-weight: bold;
 }
+
+
+.links p{
+    color: black;
+    display: inline;
+    padding-right: 15px;
+    text-underline-offset: 2px;
+}
+
+.links p a{
+   line-height:1.0;
+   text-decoration: none;
+   position: relative;
+}
+
+.links p a:hover{
+    color:blue;
+    font-weight:bold;
+    
+}
+
+.links p a:after {
+    content: '';
+
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+
+    border-width: 0 0 1px;
+    border-style: solid;
+}

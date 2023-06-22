@@ -1,6 +1,6 @@
 import image01 from './brainfr.PNG';
 import image02 from './wese90.PNG';
-import image03 from './reactmvie.PNG';
+import image03 from './reactmovie.PNG';
 
 const  projectData=[
         { 
@@ -27,10 +27,10 @@ const  projectData=[
           id:3,
           project_name: "Movie Catalogue",
           description: "description3",
-          image: image03,
+          image_url: image03,
           tech_used: "Reactjs, Nodejs, Postgresql", 
           project_link: "https://movie-catalogue-yk0w.onrender.com/",
-          github_link:'https://github.com/TheAstutian/movie_cat'
+          source_code:'https://github.com/TheAstutian/movie_cat'
       
         },
       ]

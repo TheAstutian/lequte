@@ -1,0 +1,18 @@
+.h2style{
+    color:white;
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.linkstyle{     
+    text-decoration: underline;
+    text-underline-offset: 7px;
+    font-size: 0.9em;
+    font-weight: lighter; 
+    line-height: 2.0;
+    color:#fffffe;
+     }
+
+.linkstyle:hover{
+        font-weight: bold;
+      }
