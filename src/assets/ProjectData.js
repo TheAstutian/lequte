@@ -32,6 +32,16 @@ const  projectData=[
           project_link: "https://movie-catalogue-yk0w.onrender.com/",
           source_code:'https://github.com/TheAstutian/movie_cat'
       
+        }, 
+        { 
+          id:4,
+          project_name: "PotterFans",
+          description: "A fan site for Harry Potter lovers",
+          image_url: null,
+          tech_used: "Reactjs", 
+          project_link: null,
+          source_code: null
+      
         },
       ]
 
