@@ -5,10 +5,10 @@ import './Heroarea.css'
 const Heroarea= ()=>{
 
     return (
-      <div className="mt5 pt2 ml6 pl5   ">
+      <div className="hero-header mt5 pt2 ml6 pl5   ">
           <div className="welcome mb0">
             <h1>Welcome.</h1>
-         
+          
           </div>
           
           <div className="text pl3 pr6 mr6">

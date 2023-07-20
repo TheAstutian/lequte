@@ -1,3 +1,12 @@
+.projects-container{
+    @media screen and (max-width:800px){
+        padding-top: 30px !important;
+        margin-top: 0 !important;
+        padding-bottom: 150px;
+        
+    }
+}
+
 .h2style{
     color:white;
     font-size: 2rem;

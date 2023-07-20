@@ -1,10 +1,33 @@
+.hero-header{
+    @media screen and (max-width:800px){
+        padding-top: 20px !important;
+        padding-left:5px !important;
+        margin-left:5px !important;
+        margin-top:5px !important;
+      }
+}
+
 .welcome h1{
     font-size: 5rem;
     font-weight: lighter;
+
+    @media screen and (max-width:800px){
+        font-size:3rem;
+        text-align: left;
+        padding-left:50px;
+        margin-bottom: 0 !important;
+        padding-bottom:30px;
+      }
 }
 
 .text{
     margin-top: -30px;
+
+    @media screen and (max-width:800px){
+        padding-right: 15px !important;
+        margin-top: 0;
+        margin-right: 15px  !important;
+    }
 }
 .text span{
     color: #d1d1d1;

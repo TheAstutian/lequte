@@ -1,23 +1,25 @@
-
-
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-      animation: App-logo-spin infinite 20s linear;
-    }
-  }
-  
-  
   
   .main-content{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    @media screen and (max-width:800px){
+      flex-direction: column;
+    }
   }
   
   .hero{
     width: 80%;
+    @media screen and (max-width:800px){
+      width:100%;
+      padding-left:0;
+    }
   }
   
   .projects{
     width:40%;
+    @media screen and (max-width:800px){
+      width:100%;
+    }
   }
   

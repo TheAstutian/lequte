@@ -9,7 +9,7 @@ class Projects extends React.Component {
     render(){
 
       return (
-      <div className="mt5 pt4 pl4 ml2"> 
+      <div className="projects-container mt5 pt4 pl4 ml2"> 
         <h2 className="h2style">Projects</h2>
           <div>
             {projectData.map((item, index)=>{
