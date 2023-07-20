@@ -9,7 +9,7 @@ const Project =(props)=>{
 
 
     return (
-        <div className='pa2 mv3 main' >
+        <div className='pa2 mt3 mb3 main' > 
             <div className='title'>
                 <h1>{from.project_name}</h1>
             </div>
