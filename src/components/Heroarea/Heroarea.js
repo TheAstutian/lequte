@@ -12,9 +12,7 @@ const Heroarea= ()=>{
           </div>
           
           <div className="text pl3 pr6 mr6">
-            <span>My name is Oke Emmanuel. I started out as a freelance writer decades ago but have since morphed into a front-end web developer. </span>
-               <span>I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use.</span>
-               <span>I'm quietly confident, naturally curious, and perpetually improving my chops</span>
+            <span>My name is Oke Emmanuel and I love building dynamic web applications. </span>
           </div>
       </div>
     )

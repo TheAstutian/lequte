@@ -20,11 +20,11 @@ const Project =(props)=>{
                 <p> {from.description}</p>
             </div>
             <div className="tech">
-                <p>{from.tech_used}</p>
+                <p>Built with {from.tech_used}</p>
             </div>
             <div className='links'> 
-                <p> <a href={`${from.project_link}`} target="blank">View Site</a></p> 
-                <p><a href={`${from.source_code}`} target="blank">GitHub</a></p>
+                <p> <a href={`${from.project_link}`} target="blank">Visit Website</a></p> 
+                <p><a href={`${from.source_code}`} target="blank">Codes</a></p>
             </div>
 
         </div>
