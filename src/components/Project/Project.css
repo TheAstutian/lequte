@@ -2,37 +2,20 @@
     
     display: block;
     background-color: #d4d8f0;
-    @media screen and (max-width:800px){
-        margin:10px !important;
-    }
-
 }
 
 .title{
     font-weight: bolder;
     text-align: center;
-    @media screen and (max-width:800px){
-        text-align: left;
-        
-    }
 }
 .title h1{
     font-size: 2.3em;
     color: #232946;
-    @media screen and (max-width:800px){
-        font-size:1.8em;
-        margin-left:50px;
-    }
 }
 
 .image{
     margin: 0 auto;
     margin-bottom: 50px;
-    @media screen and (max-width:800px){
-        width: 100% !important;
-        padding-left: 30px;
-        padding-right:30px;
-    }
 }
 .image img{
     border: 5px solid #b8c1ec;
@@ -43,10 +26,6 @@
     width:50%;
     margin: 0 auto;
     margin-bottom: 50px;
-    @media screen and (max-width:800px){
-        width:100%;
-        padding: 0 40px;
-    }
 }
 .description p, .tech p, .links p{
     color: #232946;
@@ -85,4 +64,27 @@
 
     border-width: 0 0 1px;
     border-style: solid;
+}
+
+
+@media screen and (max-width:800px){
+    .main{
+        margin:10px !important;
+    }
+    .title{
+        text-align: left;
+    }
+    .title h1{
+        font-size:1.8em;
+        margin-left:50px;
+    }
+    .image{
+        width: 100% !important;
+        padding-left: 30px;
+        padding-right:30px;
+    }
+    .description, .tech, .links{
+        width:100%;
+        padding: 0 40px;
+    }
 }
