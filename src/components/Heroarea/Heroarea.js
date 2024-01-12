@@ -7,12 +7,12 @@ const Heroarea= ()=>{
     return (
       <div className="hero-header mt5 pt2 ml6 pl5   ">
           <div className="welcome mb0">
-            <h1>Welcome.</h1>
+            <h1>Emmanuel.</h1>
           
           </div>
           
           <div className="text pl3 pr6 mr6">
-            <span>My name is Oke Emmanuel and I love building dynamic web applications. </span>
+            <span>I love building... stuff.  </span>
           </div>
       </div>
     )
