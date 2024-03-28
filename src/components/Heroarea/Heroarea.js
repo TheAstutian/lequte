@@ -2,7 +2,7 @@ import React from "react";
 import './Heroarea.css'
 
 
-const Heroarea= ()=>{
+const Heroarea =()=>{
 
     return (
       <div className="hero-header mt5 pt2 ml6 pl5   ">

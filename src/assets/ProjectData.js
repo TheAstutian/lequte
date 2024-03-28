@@ -1,6 +1,7 @@
 import image01 from './brainfr.PNG';
 import image02 from './wese90.PNG';
 import image03 from './reactmovie.PNG';
+import image04 from './hpc.PNG';
 
 const  projectData=[
         { 
@@ -37,10 +38,10 @@ const  projectData=[
           id:4,
           project_name: "Harry Potter Corner",
           description: "Most of my close friends love Harry Potter. So I built Harry Potter Corner, an expansive website for them and other Harry Potter fans all over the world",
-          image_url: null,
+          image_url: image04,
           tech_used: "Reactjs and APIs from Google, The Movie DB, and so on ", 
-          project_link: null,
-          source_code: null
+          project_link: "https://potter-fans.onrender.com/",
+          source_code: "https://github.com/TheAstutian/potter-fans"
       
         },
       ]
